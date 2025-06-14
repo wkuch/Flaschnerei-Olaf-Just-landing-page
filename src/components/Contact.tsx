@@ -7,11 +7,11 @@ import { Phone, Mail, MapPin, Clock } from "lucide-react";
 
 export const Contact = () => {
   return (
-    <section className="py-24 bg-gradient-to-br from-amber-900 via-amber-800 to-orange-800 text-white">
+    <section className="py-24 bg-gradient-to-br from-zinc-900 via-zinc-800 to-amber-900/10">
       <div className="container mx-auto px-4">
         <div className="text-center mb-20">
-          <h2 className="text-4xl font-bold mb-6">Persönliche Beratung & Kontakt</h2>
-          <p className="text-xl text-amber-100 max-w-2xl mx-auto leading-relaxed">
+          <h2 className="text-4xl font-bold mb-6 text-amber-200">Persönliche Beratung & Kontakt</h2>
+          <p className="text-xl text-zinc-300 max-w-2xl mx-auto leading-relaxed">
             Haben Sie ein Projekt oder Fragen? Als Familienbetrieb nehmen wir uns gerne Zeit 
             für Sie und erstellen Ihnen ein ehrliches, kostenloses Angebot.
           </p>
@@ -23,84 +23,84 @@ export const Contact = () => {
             
             <div className="space-y-8 mb-10">
               <div className="flex items-start gap-6">
-                <div className="p-4 bg-gradient-to-br from-orange-500 to-orange-600 rounded-xl shadow-lg">
-                  <Phone className="w-7 h-7" />
+                <div className="p-4 bg-gradient-to-br from-amber-600 to-amber-700 rounded-xl shadow-lg">
+                  <Phone className="w-7 h-7 text-white" />
                 </div>
                 <div>
-                  <h4 className="font-bold mb-2 text-lg text-amber-100">Telefon</h4>
+                  <h4 className="font-bold mb-2 text-lg text-amber-200">Telefon</h4>
                   <p className="text-white text-lg font-medium">+49 XXX XXXXXXX</p>
-                  <p className="text-amber-200">Mo-Fr: 7:00 - 17:00 Uhr</p>
+                  <p className="text-zinc-400">Mo-Fr: 7:00 - 17:00 Uhr</p>
                 </div>
               </div>
               
               <div className="flex items-start gap-6">
-                <div className="p-4 bg-gradient-to-br from-orange-500 to-orange-600 rounded-xl shadow-lg">
-                  <Mail className="w-7 h-7" />
+                <div className="p-4 bg-gradient-to-br from-amber-600 to-amber-700 rounded-xl shadow-lg">
+                  <Mail className="w-7 h-7 text-white" />
                 </div>
                 <div>
-                  <h4 className="font-bold mb-2 text-lg text-amber-100">E-Mail</h4>
+                  <h4 className="font-bold mb-2 text-lg text-amber-200">E-Mail</h4>
                   <p className="text-white text-lg font-medium">info@flaschnerei-just.de</p>
-                  <p className="text-amber-200">Antwort innerhalb von 24h</p>
+                  <p className="text-zinc-400">Antwort innerhalb von 24h</p>
                 </div>
               </div>
               
               <div className="flex items-start gap-6">
-                <div className="p-4 bg-gradient-to-br from-orange-500 to-orange-600 rounded-xl shadow-lg">
-                  <MapPin className="w-7 h-7" />
+                <div className="p-4 bg-gradient-to-br from-amber-600 to-amber-700 rounded-xl shadow-lg">
+                  <MapPin className="w-7 h-7 text-white" />
                 </div>
                 <div>
-                  <h4 className="font-bold mb-2 text-lg text-amber-100">Standort</h4>
+                  <h4 className="font-bold mb-2 text-lg text-amber-200">Standort</h4>
                   <p className="text-white text-lg font-medium">[Ihre Adresse]</p>
-                  <p className="text-amber-200">Vor-Ort-Termine nach Vereinbarung</p>
+                  <p className="text-zinc-400">Vor-Ort-Termine nach Vereinbarung</p>
                 </div>
               </div>
               
               <div className="flex items-start gap-6">
-                <div className="p-4 bg-gradient-to-br from-orange-500 to-orange-600 rounded-xl shadow-lg">
-                  <Clock className="w-7 h-7" />
+                <div className="p-4 bg-gradient-to-br from-amber-600 to-amber-700 rounded-xl shadow-lg">
+                  <Clock className="w-7 h-7 text-white" />
                 </div>
                 <div>
-                  <h4 className="font-bold mb-2 text-lg text-amber-100">Öffnungszeiten</h4>
+                  <h4 className="font-bold mb-2 text-lg text-amber-200">Öffnungszeiten</h4>
                   <p className="text-white text-lg font-medium">Mo-Fr: 7:00 - 17:00 Uhr</p>
-                  <p className="text-amber-200">Notfälle nach Absprache</p>
+                  <p className="text-zinc-400">Notfälle nach Absprache</p>
                 </div>
               </div>
             </div>
           </div>
           
-          <Card className="bg-white/95 border-none shadow-2xl">
+          <Card className="bg-gradient-to-br from-zinc-800 to-zinc-700 border-2 border-amber-600/30 shadow-2xl">
             <CardHeader className="pb-6">
-              <CardTitle className="text-amber-900 text-2xl">Kostenvoranschlag anfordern</CardTitle>
-              <p className="text-amber-700">Unverbindlich und kostenlos</p>
+              <CardTitle className="text-amber-200 text-2xl">Kostenvoranschlag anfordern</CardTitle>
+              <p className="text-zinc-400">Unverbindlich und kostenlos</p>
             </CardHeader>
             <CardContent className="space-y-6">
               <div className="grid sm:grid-cols-2 gap-4">
                 <Input 
                   placeholder="Ihr Name" 
-                  className="border-2 border-amber-200 focus:border-orange-500 bg-white"
+                  className="border-2 border-amber-600/30 focus:border-amber-500 bg-zinc-700 text-white placeholder:text-zinc-400"
                 />
                 <Input 
                   placeholder="Telefon" 
-                  className="border-2 border-amber-200 focus:border-orange-500 bg-white"
+                  className="border-2 border-amber-600/30 focus:border-amber-500 bg-zinc-700 text-white placeholder:text-zinc-400"
                 />
               </div>
               <Input 
                 placeholder="E-Mail Adresse" 
-                className="border-2 border-amber-200 focus:border-orange-500 bg-white"
+                className="border-2 border-amber-600/30 focus:border-amber-500 bg-zinc-700 text-white placeholder:text-zinc-400"
               />
               <Input 
                 placeholder="Ort des Projekts" 
-                className="border-2 border-amber-200 focus:border-orange-500 bg-white"
+                className="border-2 border-amber-600/30 focus:border-amber-500 bg-zinc-700 text-white placeholder:text-zinc-400"
               />
               <Textarea 
                 placeholder="Beschreiben Sie Ihr Projekt..." 
                 rows={4}
-                className="border-2 border-amber-200 focus:border-orange-500 bg-white"
+                className="border-2 border-amber-600/30 focus:border-amber-500 bg-zinc-700 text-white placeholder:text-zinc-400"
               />
-              <Button className="w-full bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-semibold py-3 text-lg shadow-lg">
+              <Button className="w-full bg-gradient-to-r from-amber-600 to-amber-700 hover:from-amber-700 hover:to-amber-800 text-white font-semibold py-3 text-lg shadow-lg border-0">
                 Kostenvoranschlag anfordern
               </Button>
-              <p className="text-xs text-amber-600 text-center font-medium">
+              <p className="text-xs text-zinc-400 text-center font-medium">
                 Persönliche Beratung • Ehrliche Preise • Kostenlose Besichtigung
               </p>
             </CardContent>
