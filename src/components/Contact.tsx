@@ -7,100 +7,101 @@ import { Phone, Mail, MapPin, Clock } from "lucide-react";
 
 export const Contact = () => {
   return (
-    <section className="py-20 bg-slate-800 text-white">
+    <section className="py-24 bg-gradient-to-br from-amber-900 via-amber-800 to-orange-800 text-white">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4">Kontakt & Beratung</h2>
-          <p className="text-xl text-slate-300 max-w-2xl mx-auto">
-            Haben Sie ein Projekt oder Fragen? Wir beraten Sie gerne unverbindlich 
-            und erstellen Ihnen ein kostenloses Angebot.
+        <div className="text-center mb-20">
+          <h2 className="text-4xl font-bold mb-6">Persönliche Beratung & Kontakt</h2>
+          <p className="text-xl text-amber-100 max-w-2xl mx-auto leading-relaxed">
+            Haben Sie ein Projekt oder Fragen? Als Familienbetrieb nehmen wir uns gerne Zeit 
+            für Sie und erstellen Ihnen ein ehrliches, kostenloses Angebot.
           </p>
         </div>
         
-        <div className="grid lg:grid-cols-2 gap-12">
+        <div className="grid lg:grid-cols-2 gap-16">
           <div>
-            <h3 className="text-2xl font-bold mb-8 text-orange-400">Nehmen Sie Kontakt auf</h3>
+            <h3 className="text-2xl font-bold mb-10 text-amber-200">Sprechen Sie uns an</h3>
             
-            <div className="space-y-6 mb-8">
-              <div className="flex items-start gap-4">
-                <div className="p-3 bg-orange-500 rounded-lg">
-                  <Phone className="w-6 h-6" />
+            <div className="space-y-8 mb-10">
+              <div className="flex items-start gap-6">
+                <div className="p-4 bg-gradient-to-br from-orange-500 to-orange-600 rounded-xl shadow-lg">
+                  <Phone className="w-7 h-7" />
                 </div>
                 <div>
-                  <h4 className="font-semibold mb-1">Telefon</h4>
-                  <p className="text-slate-300">+49 XXX XXXXXXX</p>
-                  <p className="text-sm text-slate-400">Mo-Fr: 7:00 - 17:00 Uhr</p>
+                  <h4 className="font-bold mb-2 text-lg text-amber-100">Telefon</h4>
+                  <p className="text-white text-lg font-medium">+49 XXX XXXXXXX</p>
+                  <p className="text-amber-200">Mo-Fr: 7:00 - 17:00 Uhr</p>
                 </div>
               </div>
               
-              <div className="flex items-start gap-4">
-                <div className="p-3 bg-orange-500 rounded-lg">
-                  <Mail className="w-6 h-6" />
+              <div className="flex items-start gap-6">
+                <div className="p-4 bg-gradient-to-br from-orange-500 to-orange-600 rounded-xl shadow-lg">
+                  <Mail className="w-7 h-7" />
                 </div>
                 <div>
-                  <h4 className="font-semibold mb-1">E-Mail</h4>
-                  <p className="text-slate-300">info@flaschnerei-just.de</p>
-                  <p className="text-sm text-slate-400">Antwort innerhalb von 24h</p>
+                  <h4 className="font-bold mb-2 text-lg text-amber-100">E-Mail</h4>
+                  <p className="text-white text-lg font-medium">info@flaschnerei-just.de</p>
+                  <p className="text-amber-200">Antwort innerhalb von 24h</p>
                 </div>
               </div>
               
-              <div className="flex items-start gap-4">
-                <div className="p-3 bg-orange-500 rounded-lg">
-                  <MapPin className="w-6 h-6" />
+              <div className="flex items-start gap-6">
+                <div className="p-4 bg-gradient-to-br from-orange-500 to-orange-600 rounded-xl shadow-lg">
+                  <MapPin className="w-7 h-7" />
                 </div>
                 <div>
-                  <h4 className="font-semibold mb-1">Standort</h4>
-                  <p className="text-slate-300">[Ihre Adresse]</p>
-                  <p className="text-sm text-slate-400">Vor Ort Termine nach Vereinbarung</p>
+                  <h4 className="font-bold mb-2 text-lg text-amber-100">Standort</h4>
+                  <p className="text-white text-lg font-medium">[Ihre Adresse]</p>
+                  <p className="text-amber-200">Vor-Ort-Termine nach Vereinbarung</p>
                 </div>
               </div>
               
-              <div className="flex items-start gap-4">
-                <div className="p-3 bg-orange-500 rounded-lg">
-                  <Clock className="w-6 h-6" />
+              <div className="flex items-start gap-6">
+                <div className="p-4 bg-gradient-to-br from-orange-500 to-orange-600 rounded-xl shadow-lg">
+                  <Clock className="w-7 h-7" />
                 </div>
                 <div>
-                  <h4 className="font-semibold mb-1">Öffnungszeiten</h4>
-                  <p className="text-slate-300">Mo-Fr: 7:00 - 17:00 Uhr</p>
-                  <p className="text-sm text-slate-400">Notfälle nach Absprache</p>
+                  <h4 className="font-bold mb-2 text-lg text-amber-100">Öffnungszeiten</h4>
+                  <p className="text-white text-lg font-medium">Mo-Fr: 7:00 - 17:00 Uhr</p>
+                  <p className="text-amber-200">Notfälle nach Absprache</p>
                 </div>
               </div>
             </div>
           </div>
           
-          <Card className="bg-slate-700 border-slate-600">
-            <CardHeader>
-              <CardTitle className="text-white">Kostenvoranschlag anfordern</CardTitle>
+          <Card className="bg-white/95 border-none shadow-2xl">
+            <CardHeader className="pb-6">
+              <CardTitle className="text-amber-900 text-2xl">Kostenvoranschlag anfordern</CardTitle>
+              <p className="text-amber-700">Unverbindlich und kostenlos</p>
             </CardHeader>
-            <CardContent className="space-y-4">
+            <CardContent className="space-y-6">
               <div className="grid sm:grid-cols-2 gap-4">
                 <Input 
                   placeholder="Ihr Name" 
-                  className="bg-slate-600 border-slate-500 text-white placeholder:text-slate-400"
+                  className="border-2 border-amber-200 focus:border-orange-500 bg-white"
                 />
                 <Input 
                   placeholder="Telefon" 
-                  className="bg-slate-600 border-slate-500 text-white placeholder:text-slate-400"
+                  className="border-2 border-amber-200 focus:border-orange-500 bg-white"
                 />
               </div>
               <Input 
                 placeholder="E-Mail Adresse" 
-                className="bg-slate-600 border-slate-500 text-white placeholder:text-slate-400"
+                className="border-2 border-amber-200 focus:border-orange-500 bg-white"
               />
               <Input 
                 placeholder="Ort des Projekts" 
-                className="bg-slate-600 border-slate-500 text-white placeholder:text-slate-400"
+                className="border-2 border-amber-200 focus:border-orange-500 bg-white"
               />
               <Textarea 
                 placeholder="Beschreiben Sie Ihr Projekt..." 
                 rows={4}
-                className="bg-slate-600 border-slate-500 text-white placeholder:text-slate-400"
+                className="border-2 border-amber-200 focus:border-orange-500 bg-white"
               />
-              <Button className="w-full bg-orange-500 hover:bg-orange-600">
+              <Button className="w-full bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-semibold py-3 text-lg shadow-lg">
                 Kostenvoranschlag anfordern
               </Button>
-              <p className="text-xs text-slate-400 text-center">
-                Kostenlose Beratung und unverbindliches Angebot
+              <p className="text-xs text-amber-600 text-center font-medium">
+                Persönliche Beratung • Ehrliche Preise • Kostenlose Besichtigung
               </p>
             </CardContent>
           </Card>
