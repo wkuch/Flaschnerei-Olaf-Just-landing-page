@@ -14,17 +14,17 @@ export const Header = () => {
               className="h-12 w-auto"
             />
             <div className="flex flex-col">
-              <h1 className="text-2xl font-bold text-orange-400">Flaschnerei Olaf Just</h1>
+              <h1 className="text-2xl font-bold text-orange-600">Flaschnerei Olaf Just</h1>
               <span className="text-sm text-slate-300">Meisterbetrieb seit 1990</span>
             </div>
           </Link>
           <div className="hidden md:flex items-center space-x-6">
             <div className="flex items-center space-x-2">
-              <Phone className="w-4 h-4 text-orange-400" />
+              <Phone className="w-4 h-4 text-orange-600" />
               <span className="text-sm">+49 XXX XXXXXXX</span>
             </div>
             <div className="flex items-center space-x-2">
-              <Mail className="w-4 h-4 text-orange-400" />
+              <Mail className="w-4 h-4 text-orange-600" />
               <span className="text-sm">info@flaschnerei-just.de</span>
             </div>
           </div>

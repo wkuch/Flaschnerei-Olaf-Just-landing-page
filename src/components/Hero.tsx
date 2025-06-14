@@ -20,7 +20,7 @@ export const Hero = () => {
           <div>
             <h2 className="text-5xl font-bold mb-6 leading-tight">
               Ihr zuverlässiger Partner für 
-              <span className="text-orange-400"> Metallarbeiten am Haus</span>
+              <span className="text-orange-600"> Metallarbeiten am Haus</span>
             </h2>
             <p className="text-xl text-slate-300 mb-8 leading-relaxed">
               Seit über 30 Jahren steht die Flaschnerei Olaf Just für höchste Qualität 
@@ -30,7 +30,7 @@ export const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
               <Button 
                 size="lg" 
-                className="bg-orange-500 hover:bg-orange-600 text-white"
+                className="bg-orange-600 hover:bg-orange-700 text-white"
                 onClick={scrollToContact}
               >
                 Kostenvoranschlag anfordern
@@ -39,7 +39,7 @@ export const Hero = () => {
               <Button 
                 variant="outline" 
                 size="lg" 
-                className="border-slate-400 text-slate-300 hover:bg-slate-700"
+                className="border-slate-400 text-slate-800 hover:bg-slate-700"
                 onClick={scrollToServices}
               >
                 Unsere Leistungen
@@ -47,11 +47,11 @@ export const Hero = () => {
             </div>
             <div className="flex gap-8">
               <div className="flex items-center gap-2">
-                <Award className="w-6 h-6 text-orange-400" />
+                <Award className="w-6 h-6 text-orange-600" />
                 <span className="text-slate-300">Meisterbetrieb</span>
               </div>
               <div className="flex items-center gap-2">
-                <Users className="w-6 h-6 text-orange-400" />
+                <Users className="w-6 h-6 text-orange-600" />
                 <span className="text-slate-300">Familienunternehmen</span>
               </div>
             </div>

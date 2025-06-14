@@ -23,17 +23,17 @@ export const About = () => {
             </p>
             
             <div className="grid sm:grid-cols-2 gap-6">
-              <Card className="border-orange-200">
+              <Card className="border-orange-300">
                 <CardContent className="p-6 text-center">
-                  <Award className="w-8 h-8 text-orange-500 mx-auto mb-3" />
+                  <Award className="w-8 h-8 text-orange-700 mx-auto mb-3" />
                   <h3 className="font-semibold text-slate-800 mb-2">Doppelte Meister-Kompetenz</h3>
                   <p className="text-slate-600 text-sm">Vater und Sohn mit Meistertitel</p>
                 </CardContent>
               </Card>
               
-              <Card className="border-orange-200">
+              <Card className="border-orange-300">
                 <CardContent className="p-6 text-center">
-                  <Clock className="w-8 h-8 text-orange-500 mx-auto mb-3" />
+                  <Clock className="w-8 h-8 text-orange-700 mx-auto mb-3" />
                   <h3 className="font-semibold text-slate-800 mb-2">30+ Jahre Erfahrung</h3>
                   <p className="text-slate-600 text-sm">Seit 1990 im Handwerk tätig</p>
                 </CardContent>

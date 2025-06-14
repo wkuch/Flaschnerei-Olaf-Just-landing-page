@@ -20,7 +20,7 @@ export const Team = () => {
                 <p className="text-slate-400 text-sm">Foto Olaf Just</p>
               </div>
               <h3 className="text-2xl font-bold text-slate-800 mb-2">Olaf Just</h3>
-              <p className="text-orange-600 font-semibold mb-4">Flaschnerei-Meister & Gründer</p>
+              <p className="text-orange-700 font-semibold mb-4">Flaschnerei-Meister & Gründer</p>
               <p className="text-slate-600 mb-6 leading-relaxed">
                 Seit über 30 Jahren selbstständig im Flaschnerei-Handwerk tätig. 
                 Gründer des Betriebs und Experte für alle traditionellen Metallarbeiten am Haus.
@@ -44,7 +44,7 @@ export const Team = () => {
                 <p className="text-slate-400 text-sm">Foto Sohn</p>
               </div>
               <h3 className="text-2xl font-bold text-slate-800 mb-2">[Name des Sohnes]</h3>
-              <p className="text-orange-600 font-semibold mb-4">Flaschnerei-Meister</p>
+              <p className="text-orange-700 font-semibold mb-4">Flaschnerei-Meister</p>
               <p className="text-slate-600 mb-6 leading-relaxed">
                 Bringt frische Ideen und moderne Techniken in den Traditionsbetrieb ein. 
                 Meister der zweiten Generation mit Leidenschaft für das Handwerk.

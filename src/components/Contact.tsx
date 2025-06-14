@@ -19,11 +19,11 @@ export const Contact = () => {
         
         <div className="grid lg:grid-cols-2 gap-12">
           <div>
-            <h3 className="text-2xl font-bold mb-8 text-orange-400">Nehmen Sie Kontakt auf</h3>
+            <h3 className="text-2xl font-bold mb-8 text-orange-600">Nehmen Sie Kontakt auf</h3>
             
             <div className="space-y-6 mb-8">
               <div className="flex items-start gap-4">
-                <div className="p-3 bg-orange-500 rounded-lg">
+                <div className="p-3 bg-orange-600 rounded-lg">
                   <Phone className="w-6 h-6" />
                 </div>
                 <div>
@@ -34,7 +34,7 @@ export const Contact = () => {
               </div>
               
               <div className="flex items-start gap-4">
-                <div className="p-3 bg-orange-500 rounded-lg">
+                <div className="p-3 bg-orange-600 rounded-lg">
                   <Mail className="w-6 h-6" />
                 </div>
                 <div>
@@ -45,7 +45,7 @@ export const Contact = () => {
               </div>
               
               <div className="flex items-start gap-4">
-                <div className="p-3 bg-orange-500 rounded-lg">
+                <div className="p-3 bg-orange-600 rounded-lg">
                   <MapPin className="w-6 h-6" />
                 </div>
                 <div>
@@ -56,7 +56,7 @@ export const Contact = () => {
               </div>
               
               <div className="flex items-start gap-4">
-                <div className="p-3 bg-orange-500 rounded-lg">
+                <div className="p-3 bg-orange-600 rounded-lg">
                   <Clock className="w-6 h-6" />
                 </div>
                 <div>
@@ -96,7 +96,7 @@ export const Contact = () => {
                 rows={4}
                 className="bg-slate-600 border-slate-500 text-white placeholder:text-slate-400"
               />
-              <Button className="w-full bg-orange-500 hover:bg-orange-600">
+              <Button className="w-full bg-orange-600 hover:bg-orange-700">
                 Kostenvoranschlag anfordern
               </Button>
               <p className="text-xs text-slate-400 text-center">

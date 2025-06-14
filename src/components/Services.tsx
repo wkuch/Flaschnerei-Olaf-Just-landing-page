@@ -56,11 +56,11 @@ export const Services = () => {
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
-            <Card key={index} className="hover:shadow-lg transition-shadow duration-300 border-l-4 border-l-orange-400">
+            <Card key={index} className="hover:shadow-lg transition-shadow duration-300 border-l-4 border-l-orange-600">
               <CardHeader>
                 <div className="flex items-center gap-3">
-                  <div className="p-2 bg-orange-100 rounded-lg">
-                    <service.icon className="w-6 h-6 text-orange-600" />
+                  <div className="p-2 bg-orange-200 rounded-lg">
+                    <service.icon className="w-6 h-6 text-orange-700" />
                   </div>
                   <CardTitle className="text-slate-800">{service.title}</CardTitle>
                 </div>
