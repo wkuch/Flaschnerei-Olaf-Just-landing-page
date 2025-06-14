@@ -3,6 +3,16 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Award, Users } from "lucide-react";
 
 export const Hero = () => {
+  const scrollToServices = () => {
+    const servicesElement = document.getElementById('services');
+    servicesElement?.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  const scrollToContact = () => {
+    const contactElement = document.getElementById('contact');
+    contactElement?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-700 text-white py-20">
       <div className="container mx-auto px-4">
@@ -18,11 +28,20 @@ export const Hero = () => {
               mit modernen Techniken.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
-              <Button size="lg" className="bg-orange-500 hover:bg-orange-600 text-white">
+              <Button 
+                size="lg" 
+                className="bg-orange-500 hover:bg-orange-600 text-white"
+                onClick={scrollToContact}
+              >
                 Kostenvoranschlag anfordern
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
-              <Button variant="outline" size="lg" className="border-slate-400 text-slate-300 hover:bg-slate-700">
+              <Button 
+                variant="outline" 
+                size="lg" 
+                className="border-slate-400 text-slate-300 hover:bg-slate-700"
+                onClick={scrollToServices}
+              >
                 Unsere Leistungen
               </Button>
             </div>

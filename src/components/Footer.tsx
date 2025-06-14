@@ -1,5 +1,6 @@
 
 import { Separator } from "@/components/ui/separator";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
@@ -7,7 +8,14 @@ export const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
-            <h3 className="text-xl font-bold text-orange-400 mb-4">Flaschnerei Olaf Just</h3>
+            <div className="flex items-center space-x-3 mb-4">
+              <img 
+                src="/logo.png" 
+                alt="Flaschnerei Olaf Just Logo" 
+                className="h-10 w-auto"
+              />
+              <h3 className="text-xl font-bold text-orange-400">Flaschnerei Olaf Just</h3>
+            </div>
             <p className="text-slate-400 leading-relaxed mb-4">
               Ihr zuverlässiger Meisterbetrieb für alle Metallarbeiten am Haus. 
               Seit über 30 Jahren in der Region tätig.
@@ -45,8 +53,8 @@ export const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center text-sm text-slate-500">
           <p>&copy; 2024 Flaschnerei Olaf Just. Alle Rechte vorbehalten.</p>
           <div className="flex gap-6 mt-4 md:mt-0">
-            <a href="#" className="hover:text-orange-400 transition-colors">Impressum</a>
-            <a href="#" className="hover:text-orange-400 transition-colors">Datenschutz</a>
+            <Link to="/impressum" className="hover:text-orange-400 transition-colors">Impressum</Link>
+            <Link to="/datenschutz" className="hover:text-orange-400 transition-colors">Datenschutz</Link>
           </div>
         </div>
       </div>

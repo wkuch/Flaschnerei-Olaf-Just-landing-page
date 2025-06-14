@@ -1,73 +1,123 @@
-# Welcome to your Lovable project
+# Flaschnerei Olaf Just Website
 
-## Project info
+A modern, responsive website for Flaschnerei Olaf Just, a traditional German metalworking business specializing in roofing and sheet metal services.
 
-**URL**: https://lovable.dev/projects/c99cb1bf-3d1f-453e-bef4-906676b7353b
+## About the Project
 
-## How can I edit this code?
+This is a professional business website showcasing the services and expertise of Flaschnerei Olaf Just, a family-run Meisterbetrieb (master craftsman business) with over 30 years of experience in the region.
 
-There are several ways of editing your application.
+### Features
 
-**Use Lovable**
+- **Responsive Design**: Optimized for all devices and screen sizes
+- **Modern UI**: Clean, professional design with copper accent colors reflecting the craft tradition
+- **Service Showcase**: Detailed presentation of all metalworking services
+- **Contact Integration**: Easy-to-use contact forms and business information
+- **SEO Optimized**: Proper meta tags and semantic HTML structure
+- **Accessibility**: Built with modern web accessibility standards
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/c99cb1bf-3d1f-453e-bef4-906676b7353b) and start prompting.
+### Services Highlighted
 
-Changes made via Lovable will be committed automatically to this repo.
+- Regenrinnen & Fallrohre (Gutters & Downspouts)
+- Gauben & Dacharbeiten (Dormers & Roof Work)
+- Mauerabdeckungen (Wall Cappings)
+- Fenstersimse (Window Sills)
+- Reparaturen & Wartung (Repairs & Maintenance)
+- Sonderanfertigungen (Custom Work)
 
-**Use your preferred IDE**
+## Getting Started
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Prerequisites
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Node.js (version 18 or higher)
+- npm or bun package manager
 
-Follow these steps:
+### Installation
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+```bash
+# Clone the repository
+git clone <repository-url>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Navigate to project directory
+cd just-blech-meisterwerk
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### Development
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+# Start development server with hot reload
+npm run dev
 
-**Use GitHub Codespaces**
+# Build for production
+npm run build
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+# Preview production build
+npm run preview
 
-## What technologies are used for this project?
+# Lint code
+npm run lint
+```
 
-This project is built with:
+## Tech Stack
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+This project is built with modern web technologies:
 
-## How can I deploy this project?
+- **Vite**: Fast build tool and development server
+- **TypeScript**: Type-safe JavaScript development
+- **React**: Modern component-based UI framework
+- **React Router**: Client-side routing
+- **shadcn/ui**: High-quality, accessible UI components
+- **Tailwind CSS**: Utility-first CSS framework
+- **Lucide React**: Beautiful, customizable icons
 
-Simply open [Lovable](https://lovable.dev/projects/c99cb1bf-3d1f-453e-bef4-906676b7353b) and click on Share -> Publish.
+## Project Structure
 
-## Can I connect a custom domain to my Lovable project?
+```
+src/
+├── components/          # React components
+│   ├── ui/             # shadcn/ui components
+│   ├── Header.tsx      # Site header with navigation
+│   ├── Hero.tsx        # Landing page hero section
+│   ├── Services.tsx    # Services showcase
+│   ├── About.tsx       # Company information
+│   ├── Team.tsx        # Team presentation
+│   ├── Contact.tsx     # Contact form and info
+│   └── Footer.tsx      # Site footer
+├── pages/              # Page components
+│   ├── Index.tsx       # Main landing page
+│   ├── Impressum.tsx   # Legal imprint (German requirement)
+│   └── Datenschutz.tsx # Privacy policy (GDPR compliance)
+├── lib/                # Utility functions
+└── hooks/              # Custom React hooks
+```
 
-Yes, you can!
+## Deployment
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+This project can be deployed to any static hosting service:
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+- **Vercel**: `vercel --prod`
+- **Netlify**: Drag and drop the `dist` folder
+- **GitHub Pages**: Push to gh-pages branch
+- **Firebase Hosting**: `firebase deploy`
+
+Build the project first:
+```bash
+npm run build
+```
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Test thoroughly
+5. Submit a pull request
+
+## License
+
+This project is proprietary software for Flaschnerei Olaf Just.
