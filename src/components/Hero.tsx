@@ -23,8 +23,8 @@ export const Hero = () => {
               <span className="text-orange-600"> Metallarbeiten am Haus</span>
             </h2>
             <p className="text-xl text-slate-300 mb-8 leading-relaxed">
-              Seit über 30 Jahren steht die Flaschnerei Olaf Just für höchste Qualität 
-              und Handwerkskunst. Als Vater-Sohn-Meisterbetrieb vereinen wir Tradition 
+              Seit über 25 Jahren steht die Flaschnerei Olaf Just im Großraum Heilbronn für höchste Qualität 
+              und Handwerkskunst. Als Vater-Sohn-Meisterbetrieb aus Talheim vereinen wir Tradition 
               mit modernen Techniken.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
@@ -57,9 +57,11 @@ export const Hero = () => {
             </div>
           </div>
           <div className="relative">
-            <div className="bg-slate-600 rounded-lg h-96 flex items-center justify-center">
-              <p className="text-slate-400">Platz für Hauptbild des Betriebs</p>
-            </div>
+            <img 
+              src="/HeroSectionFoto.jpg" 
+              alt="Flaschnerei Olaf Just Betrieb" 
+              className="rounded-lg h-96 w-full object-cover shadow-lg"
+            />
           </div>
         </div>
       </div>

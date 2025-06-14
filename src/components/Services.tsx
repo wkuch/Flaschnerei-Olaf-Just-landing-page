@@ -13,7 +13,7 @@ const services = [
   {
     icon: Home,
     title: "Regenrinnen & Fallrohre",
-    description: "Komplette Entwässerungssysteme für Ihr Dach - fachgerecht geplant und montiert."
+    description: "Komplette Entwässerungssysteme für Ihr Dach im Großraum Heilbronn - fachgerecht geplant und montiert."
   },
   {
     icon: Building,
@@ -38,7 +38,7 @@ const services = [
   {
     icon: Hammer,
     title: "Sonderanfertigungen",
-    description: "Individuelle Metallarbeiten nach Ihren Wünschen und Anforderungen."
+    description: "Individuelle Metallarbeiten nach Ihren Wünschen und Anforderungen in Talheim und Umgebung."
   }
 ];
 
@@ -49,7 +49,7 @@ export const Services = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-slate-800 mb-4">Unsere Leistungen</h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            Alles was am Haus aus Metall ist - wir sind Ihr kompetenter Partner 
+            Alles was am Haus aus Metall ist - wir sind Ihr kompetenter Partner im Großraum Heilbronn
             für sämtliche Flaschnerei- und Metallarbeiten.
           </p>
         </div>
