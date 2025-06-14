@@ -20,7 +20,7 @@ export const Hero = () => {
           <div>
             <h2 className="text-5xl font-bold mb-6 leading-tight">
               Ihr zuverlässiger Partner für 
-              <span className="text-orange-600"> Metallarbeiten am Haus</span>
+              <span className="text-orange-600"> Flaschnerarbeiten am Haus</span>
             </h2>
             <p className="text-xl text-slate-300 mb-8 leading-relaxed">
               Seit über 25 Jahren steht die Flaschnerei Olaf Just im Großraum Heilbronn für höchste Qualität 
@@ -33,13 +33,13 @@ export const Hero = () => {
                 className="bg-orange-600 hover:bg-orange-700 text-white"
                 onClick={scrollToContact}
               >
-                Kostenvoranschlag anfordern
+                Kontakt aufnehmen
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
               <Button 
                 variant="outline" 
                 size="lg" 
-                className="border-slate-400 text-slate-800 hover:bg-slate-700"
+                className="border-slate-400 text-slate-800 hover:bg-slate-700 hover:text-white"
                 onClick={scrollToServices}
               >
                 Unsere Leistungen

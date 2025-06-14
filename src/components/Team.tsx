@@ -27,7 +27,7 @@ export const Team = () => {
               <p className="text-orange-700 font-semibold mb-4">Flaschnerei-Meister & Gründer</p>
               <p className="text-slate-600 mb-6 leading-relaxed">
                 Seit über 25 Jahren selbstständig als Flaschnerei-Meister tätig. 
-                Gründer des Betriebs und Experte für alle traditionellen Metallarbeiten am Haus.
+                Gründer des Betriebs und Experte für alle traditionellen Flaschnerarbeiten am Haus.
               </p>
               <div className="flex justify-center gap-4 text-sm text-slate-500">
                 <div className="flex items-center gap-1">

@@ -47,7 +47,7 @@ export const Footer = () => {
                 <a href="mailto:info@flaschnerei-just.de" className="hover:text-orange-600 transition-colors">info@flaschnerei-just.de</a>
               </div>
               <p>Schmalzberg 7<br />74388 Talheim</p>
-              <p className="text-slate-500 mt-4">Mo-Fr: 7:00 - 17:00 Uhr</p>
+              <p className="text-slate-500 mt-4">Mo-Fr: 8:00 - 17:00 Uhr</p>
             </div>
           </div>
         </div>
@@ -55,7 +55,7 @@ export const Footer = () => {
         <Separator className="bg-slate-700 mb-6" />
         
         <div className="flex flex-col md:flex-row justify-between items-center text-sm text-slate-500">
-          <p>&copy; 2024 Flaschnerei Olaf Just. Alle Rechte vorbehalten.</p>
+          <p>&copy; 2025 Flaschnerei Olaf Just. Alle Rechte vorbehalten.</p>
           <div className="flex gap-6 mt-4 md:mt-0">
             <Link to="/impressum" className="hover:text-orange-600 transition-colors">Impressum</Link>
             <Link to="/datenschutz" className="hover:text-orange-600 transition-colors">Datenschutz</Link>

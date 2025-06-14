@@ -33,12 +33,12 @@ const services = [
   {
     icon: Wrench,
     title: "Reparaturen & Wartung",
-    description: "Schnelle Reparaturen und regelmäßige Wartung Ihrer Metallkonstruktionen."
+    description: "Schnelle Reparaturen und regelmäßige Wartung Ihrer Blechkonstruktionen."
   },
   {
     icon: Hammer,
     title: "Sonderanfertigungen",
-    description: "Individuelle Metallarbeiten nach Ihren Wünschen und Anforderungen in Talheim und Umgebung."
+    description: "Individuelle Flaschnerarbeiten nach Ihren Wünschen und Anforderungen in Talheim und Umgebung."
   }
 ];
 
@@ -49,8 +49,8 @@ export const Services = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-slate-800 mb-4">Unsere Leistungen</h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            Alles was am Haus aus Metall ist - wir sind Ihr kompetenter Partner im Großraum Heilbronn
-            für sämtliche Flaschnerei- und Metallarbeiten.
+            Alles was am Haus aus Blech ist - wir sind Ihr kompetenter Partner im Großraum Heilbronn
+            für sämtliche Flaschnerei- und Blecharbeiten.
           </p>
         </div>
         

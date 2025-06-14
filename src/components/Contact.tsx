@@ -10,7 +10,7 @@ export const Contact = () => {
           <h2 className="text-4xl font-bold mb-4">Kontakt & Beratung</h2>
           <p className="text-xl text-slate-300 max-w-2xl mx-auto">
             Haben Sie ein Projekt im Großraum Heilbronn oder Fragen? Wir beraten Sie gerne unverbindlich 
-            und erstellen Ihnen ein kostenloses Angebot für Ihr Vorhaben in Heilbronn und Umgebung.
+            und erstellen Ihnen ein kostenloses Angebot.
           </p>
         </div>
         
@@ -26,7 +26,7 @@ export const Contact = () => {
                 <div>
                   <h4 className="font-semibold mb-1">Telefon</h4>
                   <a href="tel:+4917182751441" className="text-slate-300 hover:text-orange-600 transition-colors">+49 171 8275144</a>
-                  <p className="text-sm text-slate-400">Mo-Fr: 7:00 - 17:00 Uhr</p>
+                  <p className="text-sm text-slate-400">Mo-Fr: 8:00 - 17:00 Uhr</p>
                 </div>
               </div>
               
@@ -56,7 +56,7 @@ export const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold mb-1">Öffnungszeiten</h4>
-                  <p className="text-slate-300">Mo-Fr: 7:00 - 17:00 Uhr</p>
+                  <p className="text-slate-300">Mo-Fr: 8:00 - 17:00 Uhr</p>
                   <p className="text-sm text-slate-400">Notfälle nach Absprache</p>
                 </div>
               </div>
@@ -99,7 +99,6 @@ export const Contact = () => {
               <div className="mt-6 p-4 bg-orange-600/10 border border-orange-600/20 rounded-lg">
                 <p className="text-sm text-slate-300 text-center">
                   <strong>Kostenlose Beratung</strong><br />
-                  Unverbindliches Angebot innerhalb von 24h
                 </p>
               </div>
             </CardContent>

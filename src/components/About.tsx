@@ -19,7 +19,7 @@ export const About = () => {
             <p className="text-lg text-slate-600 mb-8 leading-relaxed">
               Beide Inhaber verfügen über den Meistertitel und bringen jahrzehntelange 
               Erfahrung mit. Diese Kombination aus Tradition und frischen Ideen macht 
-              uns zu Ihrem idealen Partner für alle Metallarbeiten am Haus im Raum Heilbronn.
+              uns zu Ihrem idealen Partner für alle Flaschnerarbeiten am Haus im Raum Heilbronn.
             </p>
             
             <div className="grid sm:grid-cols-2 gap-6">
@@ -34,7 +34,7 @@ export const About = () => {
               <Card className="border-orange-300">
                 <CardContent className="p-6 text-center">
                   <Clock className="w-8 h-8 text-orange-700 mx-auto mb-3" />
-                  <h3 className="font-semibold text-slate-800 mb-2">30+ Jahre Erfahrung</h3>
+                  <h3 className="font-semibold text-slate-800 mb-2">25+ Jahre Erfahrung</h3>
                   <p className="text-slate-600 text-sm">Seit 1997 als Meisterbetrieb tätig</p>
                 </CardContent>
               </Card>
