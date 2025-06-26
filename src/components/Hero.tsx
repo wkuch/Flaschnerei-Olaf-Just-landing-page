@@ -16,8 +16,8 @@ export const Hero = () => {
   return (
     <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-700 text-white py-24 hero-pattern relative overflow-hidden">
       <div className="container mx-auto px-4 relative z-10">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-6xl md:text-7xl heading-primary mb-8 leading-tight">
+        <div className="max-w-5xl mx-auto text-center">
+          <h2 className="text-5xl md:text-6xl lg:text-7xl heading-primary mb-8 leading-tight">
             Ihr zuverlässiger Partner für 
             <span className="text-orange-600 heading-accent block mt-2"> Flaschnerarbeiten am Haus</span>
           </h2>
@@ -44,21 +44,21 @@ export const Hero = () => {
               Unsere Leistungen
             </Button>
           </div>
-          <div className="flex flex-col sm:flex-row gap-12 justify-center items-center">
-            <div className="flex items-center gap-3">
-              <div className="p-3 bg-orange-600/20 rounded-full">
+          <div className="flex flex-col sm:flex-row gap-8 sm:gap-12 justify-center items-start sm:items-center">
+            <div className="flex items-center gap-3 w-full sm:w-auto">
+              <div className="p-3 bg-orange-600/20 rounded-full flex-shrink-0">
                 <Award className="w-8 h-8 text-orange-600" />
               </div>
-              <div className="text-left">
+              <div className="text-left min-w-0">
                 <div className="text-white font-semibold text-lg">Meisterbetrieb</div>
                 <div className="text-slate-400 text-sm">Seit 1997</div>
               </div>
             </div>
-            <div className="flex items-center gap-3">
-              <div className="p-3 bg-orange-600/20 rounded-full">
+            <div className="flex items-center gap-3 w-full sm:w-auto">
+              <div className="p-3 bg-orange-600/20 rounded-full flex-shrink-0">
                 <Users className="w-8 h-8 text-orange-600" />
               </div>
-              <div className="text-left">
+              <div className="text-left min-w-0">
                 <div className="text-white font-semibold text-lg">Familienunternehmen</div>
                 <div className="text-slate-400 text-sm">2 Generationen</div>
               </div>
