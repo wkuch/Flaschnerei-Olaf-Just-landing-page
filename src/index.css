@@ -293,4 +293,87 @@
     0%, 100% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
   }
+  
+  /* Enhanced visual patterns for sections without images */
+  .enhanced-pattern {
+    background-image: 
+      radial-gradient(circle at 25% 25%, rgba(234,88,12,0.08) 0%, transparent 35%),
+      radial-gradient(circle at 75% 75%, rgba(234,88,12,0.05) 0%, transparent 35%),
+      linear-gradient(135deg, rgba(0,0,0,0.02) 0%, transparent 40%);
+  }
+  
+  /* Animated gradient backgrounds for visual interest */
+  .animated-gradient {
+    background: linear-gradient(-45deg, #f8fafc, #f1f5f9, #e2e8f0, #f8fafc);
+    background-size: 400% 400%;
+    animation: gradient-shift 15s ease infinite;
+  }
+  
+  @keyframes gradient-shift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  /* Enhanced divider styles */
+  .enhanced-divider {
+    position: relative;
+    height: 2px;
+    background: linear-gradient(to right, transparent, #ea580c 20%, #ea580c 80%, transparent);
+    margin: 2rem auto;
+    border-radius: 2px;
+  }
+  
+  .enhanced-divider::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 12px;
+    background: #ea580c;
+    border-radius: 50%;
+    box-shadow: 
+      0 0 0 3px white,
+      0 0 0 4px #ea580c,
+      0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  /* Improved card shadows and depth */
+  .premium-card {
+    box-shadow: 
+      0 1px 3px rgba(0,0,0,0.1),
+      0 1px 2px rgba(0,0,0,0.06),
+      0 0 0 1px rgba(234,88,12,0.05);
+    transition: all 0.3s ease;
+  }
+  
+  .premium-card:hover {
+    box-shadow: 
+      0 10px 25px rgba(0,0,0,0.1),
+      0 4px 10px rgba(0,0,0,0.06),
+      0 0 0 1px rgba(234,88,12,0.1);
+    transform: translateY(-4px);
+  }
+  
+  /* Enhanced background overlays */
+  .overlay-pattern {
+    position: relative;
+  }
+  
+  .overlay-pattern::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: 
+      repeating-linear-gradient(
+        45deg,
+        rgba(234,88,12,0.03) 0px,
+        transparent 1px,
+        transparent 10px,
+        rgba(234,88,12,0.03) 11px
+      );
+    pointer-events: none;
+  }
 }

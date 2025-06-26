@@ -17,12 +17,8 @@ export const Team = () => {
         <div className="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
           <Card className="text-center craft-card hover-lift">
             <CardContent className="p-8 accent-line">
-              <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden shadow-lg">
-                <img 
-                  src="/Herr Just senior.png" 
-                  alt="Olaf Just - Flaschnerei-Meister & Gründer" 
-                  className="w-full h-full object-cover"
-                />
+              <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-br from-orange-600 to-orange-700 shadow-lg flex items-center justify-center">
+                <span className="text-4xl font-bold text-white">OJ</span>
               </div>
               <h3 className="text-2xl heading-secondary text-slate-800 mb-2">Olaf Just</h3>
               <p className="text-orange-700 font-semibold mb-4">Flaschnerei-Meister & Gründer</p>
@@ -45,12 +41,8 @@ export const Team = () => {
           
           <Card className="text-center craft-card hover-lift">
             <CardContent className="p-8 accent-line">
-              <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden shadow-lg">
-                <img 
-                  src="/Herr just junior.png" 
-                  alt="Lucas Schmidt - Flaschnerei-Meister" 
-                  className="w-full h-full object-cover"
-                />
+              <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-br from-slate-600 to-slate-700 shadow-lg flex items-center justify-center">
+                <span className="text-4xl font-bold text-white">LS</span>
               </div>
               <h3 className="text-2xl heading-secondary text-slate-800 mb-2">Lucas Schmidt</h3>
               <p className="text-orange-700 font-semibold mb-4">Flaschnerei-Meister</p>
