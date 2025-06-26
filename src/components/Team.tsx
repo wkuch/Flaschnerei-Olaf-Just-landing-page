@@ -7,7 +7,7 @@ export const Team = () => {
     <section className="py-20 bg-slate-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-slate-800 mb-4">Unser Team</h2>
+          <h2 className="text-4xl heading-secondary text-slate-800 mb-4">Unser Team</h2>
           <p className="text-xl text-slate-600 max-w-2xl mx-auto">
             Lernen Sie die Meister kennen, die hinter der Qualität unserer Arbeit stehen.
           </p>
@@ -23,7 +23,7 @@ export const Team = () => {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="text-2xl font-bold text-slate-800 mb-2">Olaf Just</h3>
+              <h3 className="text-2xl heading-secondary text-slate-800 mb-2">Olaf Just</h3>
               <p className="text-orange-700 font-semibold mb-4">Flaschnerei-Meister & Gründer</p>
               <p className="text-slate-600 mb-6 leading-relaxed">
                 Seit über 25 Jahren selbstständig als Flaschnerei-Meister tätig. 
@@ -51,7 +51,7 @@ export const Team = () => {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="text-2xl font-bold text-slate-800 mb-2">Lucas Schmidt</h3>
+              <h3 className="text-2xl heading-secondary text-slate-800 mb-2">Lucas Schmidt</h3>
               <p className="text-orange-700 font-semibold mb-4">Flaschnerei-Meister</p>
               <p className="text-slate-600 mb-6 leading-relaxed">
                 Bringt frische Ideen und moderne Techniken in den Traditionsbetrieb ein. 

@@ -14,7 +14,7 @@ export const Footer = () => {
                 alt="Flaschnerei Olaf Just Logo" 
                 className="h-10 w-auto"
               />
-              <h3 className="text-xl font-bold text-orange-600">Flaschnerei Olaf Just</h3>
+              <h3 className="text-xl heading-secondary text-orange-600">Flaschnerei Olaf Just</h3>
             </div>
             <p className="text-slate-400 leading-relaxed mb-4">
               Ihr zuverlässiger Meisterbetrieb für alle Flaschnerarbeiten am Haus. 

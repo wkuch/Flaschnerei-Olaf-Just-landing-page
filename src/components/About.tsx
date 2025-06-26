@@ -8,7 +8,7 @@ export const About = () => {
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-4xl font-bold text-slate-800 mb-6">
+            <h2 className="text-4xl heading-secondary text-slate-800 mb-6">
               Über 25 Jahre Erfahrung als Meisterbetrieb
             </h2>
             <p className="text-lg text-slate-600 mb-6 leading-relaxed">

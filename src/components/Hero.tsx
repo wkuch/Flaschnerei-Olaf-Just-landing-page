@@ -18,9 +18,9 @@ export const Hero = () => {
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-5xl font-bold mb-6 leading-tight">
+            <h2 className="text-5xl heading-primary mb-6">
               Ihr zuverlässiger Partner für 
-              <span className="text-orange-600"> Flaschnerarbeiten am Haus</span>
+              <span className="text-orange-600 heading-accent"> Flaschnerarbeiten am Haus</span>
             </h2>
             <p className="text-xl text-slate-300 mb-8 leading-relaxed">
               Seit über 25 Jahren steht die Flaschnerei Olaf Just im Großraum Heilbronn für höchste Qualität 

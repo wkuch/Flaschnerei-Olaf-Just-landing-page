@@ -7,11 +7,11 @@ const Datenschutz = () => {
       <Header />
       <main className="py-20 bg-slate-50">
         <div className="container mx-auto px-4 max-w-4xl">
-          <h1 className="text-4xl font-bold text-slate-800 mb-8">Datenschutzerklärung</h1>
+          <h1 className="text-4xl heading-primary text-slate-800 mb-8">Datenschutzerklärung</h1>
           
           <div className="space-y-8 text-slate-700 leading-relaxed">
             <section>
-              <h2 className="text-2xl font-bold text-slate-800 mb-4">1. Datenschutz auf einen Blick</h2>
+              <h2 className="text-2xl heading-secondary text-slate-800 mb-4">1. Datenschutz auf einen Blick</h2>
               
               <h3 className="text-xl font-semibold text-slate-800 mb-3">Allgemeine Hinweise</h3>
               <p className="mb-4">
@@ -52,7 +52,7 @@ const Datenschutz = () => {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-slate-800 mb-4">2. Hosting</h2>
+              <h2 className="text-2xl heading-secondary text-slate-800 mb-4">2. Hosting</h2>
               <p className="mb-4">
                 Wir hosten die Inhalte unserer Website bei einem externen Dienstleister. 
                 Wenn Sie unsere Website besuchen, erfasst der Provider automatisch Informationen in 
@@ -75,7 +75,7 @@ const Datenschutz = () => {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-slate-800 mb-4">3. Allgemeine Hinweise und Pflichtinformationen</h2>
+              <h2 className="text-2xl heading-secondary text-slate-800 mb-4">3. Allgemeine Hinweise und Pflichtinformationen</h2>
               
               <h3 className="text-xl font-semibold text-slate-800 mb-3">Datenschutz</h3>
               <p className="mb-4">
@@ -123,7 +123,7 @@ const Datenschutz = () => {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-slate-800 mb-4">4. Datenerfassung auf dieser Website</h2>
+              <h2 className="text-2xl heading-secondary text-slate-800 mb-4">4. Datenerfassung auf dieser Website</h2>
               
               <h3 className="text-xl font-semibold text-slate-800 mb-3">Server-Log-Dateien</h3>
               <p className="mb-4">
@@ -148,7 +148,7 @@ const Datenschutz = () => {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-slate-800 mb-4">5. Ihre Rechte</h2>
+              <h2 className="text-2xl heading-secondary text-slate-800 mb-4">5. Ihre Rechte</h2>
               
               <h3 className="text-xl font-semibold text-slate-800 mb-3">Auskunftsrecht</h3>
               <p className="mb-4">
@@ -195,7 +195,7 @@ const Datenschutz = () => {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-slate-800 mb-4">6. SSL- bzw. TLS-Verschlüsselung</h2>
+              <h2 className="text-2xl heading-secondary text-slate-800 mb-4">6. SSL- bzw. TLS-Verschlüsselung</h2>
               <p>
                 Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher 
                 Inhalte, wie zum Beispiel Bestellungen oder Anfragen, die Sie an uns als Seitenbetreiber 

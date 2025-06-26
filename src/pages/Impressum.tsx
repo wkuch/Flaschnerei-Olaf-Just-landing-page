@@ -7,11 +7,11 @@ const Impressum = () => {
       <Header />
       <main className="py-20 bg-slate-50">
         <div className="container mx-auto px-4 max-w-4xl">
-          <h1 className="text-4xl font-bold text-slate-800 mb-8">Impressum</h1>
+          <h1 className="text-4xl heading-primary text-slate-800 mb-8">Impressum</h1>
           
           <div className="space-y-6 text-slate-700">
             <section>
-              <h2 className="text-2xl font-bold text-slate-800 mb-4">Angaben gemäß § 5 TMG</h2>
+              <h2 className="text-2xl heading-secondary text-slate-800 mb-4">Angaben gemäß § 5 TMG</h2>
               <div className="space-y-2">
                 <p><strong>Flaschnerei Olaf Just</strong></p>
                 <p>Inhaber: Olaf Just</p>
@@ -21,7 +21,7 @@ const Impressum = () => {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-slate-800 mb-4">Kontakt</h2>
+              <h2 className="text-2xl heading-secondary text-slate-800 mb-4">Kontakt</h2>
               <div className="space-y-2">
                 <p>Telefon: <a href="tel:+4917182751441" className="hover:text-orange-600 transition-colors">+49 171 8275144</a></p>
                 <p>E-Mail: <a href="mailto:info@flaschnerei-just.de" className="hover:text-orange-600 transition-colors">info@flaschnerei-just.de</a></p>
@@ -29,7 +29,7 @@ const Impressum = () => {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-slate-800 mb-4">Berufsbezeichnung und berufsrechtliche Regelungen</h2>
+              <h2 className="text-2xl heading-secondary text-slate-800 mb-4">Berufsbezeichnung und berufsrechtliche Regelungen</h2>
               <div className="space-y-2">
                 <p>Berufsbezeichnung: Klempnermeister</p>
                 <p>Verliehen in: Deutschland</p>
@@ -43,7 +43,7 @@ const Impressum = () => {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-slate-800 mb-4">Aufsichtsbehörde</h2>
+              <h2 className="text-2xl heading-secondary text-slate-800 mb-4">Aufsichtsbehörde</h2>
               <div className="space-y-2">
                 <p>Zuständige Handwerkskammer: Handwerkskammer Heilbronn-Franken</p>
                 <p>Allee 76, 74072 Heilbronn</p>
@@ -53,13 +53,13 @@ const Impressum = () => {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-slate-800 mb-4">Umsatzsteuer-ID</h2>
+              <h2 className="text-2xl heading-secondary text-slate-800 mb-4">Umsatzsteuer-ID</h2>
               <p>Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:</p>
               <p className="text-slate-600 italic">wird bei Bedarf auf Anfrage mitgeteilt</p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-slate-800 mb-4">Versicherung</h2>
+              <h2 className="text-2xl heading-secondary text-slate-800 mb-4">Versicherung</h2>
               <div className="space-y-2">
                 <p>Betriebshaftpflichtversicherung bei:</p>
                 <p className="text-slate-600 italic">Versicherungsnachweis wird bei Auftragsvergabe vorgelegt</p>
@@ -67,7 +67,7 @@ const Impressum = () => {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-slate-800 mb-4">Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h2>
+              <h2 className="text-2xl heading-secondary text-slate-800 mb-4">Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h2>
               <div className="space-y-2">
                 <p>Olaf Just</p>
                 <p>Schmalzberg 7</p>
@@ -76,7 +76,7 @@ const Impressum = () => {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-slate-800 mb-4">Haftungsausschluss</h2>
+              <h2 className="text-2xl heading-secondary text-slate-800 mb-4">Haftungsausschluss</h2>
               
               <h3 className="text-xl font-semibold text-slate-800 mb-3">Haftung für Inhalte</h3>
               <p className="leading-relaxed mb-4">
@@ -109,7 +109,7 @@ const Impressum = () => {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-slate-800 mb-4">Streitschlichtung</h2>
+              <h2 className="text-2xl heading-secondary text-slate-800 mb-4">Streitschlichtung</h2>
               <p className="leading-relaxed">
                 Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: 
                 <a href="https://ec.europa.eu/consumers/odr/" className="text-orange-600 hover:underline ml-1" target="_blank" rel="noopener noreferrer">
