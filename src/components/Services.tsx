@@ -44,10 +44,11 @@ const services = [
 
 export const Services = () => {
   return (
-    <section id="services" className="py-20 bg-slate-50">
+    <section id="services" className="py-20 bg-slate-50 services-pattern">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl heading-secondary text-slate-800 mb-4">Unsere Leistungen</h2>
+          <div className="craft-divider h-4 mb-6"></div>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
             Alles was am Haus aus Blech ist - wir sind Ihr kompetenter Partner im Großraum Heilbronn
             für sämtliche Flaschnerei- und Blecharbeiten.
@@ -56,7 +57,7 @@ export const Services = () => {
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
-            <Card key={index} className="hover:shadow-lg transition-shadow duration-300 border-l-4 border-l-orange-600">
+            <Card key={index} className="hover:shadow-lg transition-shadow duration-300 border-l-4 border-l-orange-600 craft-card hover-lift">
               <CardHeader>
                 <div className="flex items-center gap-3">
                   <div className="p-2 bg-orange-200 rounded-lg">

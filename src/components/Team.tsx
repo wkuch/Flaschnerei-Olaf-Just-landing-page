@@ -4,18 +4,19 @@ import { Award, Calendar } from "lucide-react";
 
 export const Team = () => {
   return (
-    <section className="py-20 bg-slate-50">
+    <section className="py-20 bg-slate-50 section-pattern-2">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl heading-secondary text-slate-800 mb-4">Unser Team</h2>
+          <div className="craft-divider h-4 mb-6"></div>
           <p className="text-xl text-slate-600 max-w-2xl mx-auto">
             Lernen Sie die Meister kennen, die hinter der Qualität unserer Arbeit stehen.
           </p>
         </div>
         
         <div className="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
-          <Card className="text-center hover:shadow-lg transition-shadow duration-300">
-            <CardContent className="p-8">
+          <Card className="text-center craft-card hover-lift">
+            <CardContent className="p-8 accent-line">
               <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden shadow-lg">
                 <img 
                   src="/Herr Just senior.png" 
@@ -42,8 +43,8 @@ export const Team = () => {
             </CardContent>
           </Card>
           
-          <Card className="text-center hover:shadow-lg transition-shadow duration-300">
-            <CardContent className="p-8">
+          <Card className="text-center craft-card hover-lift">
+            <CardContent className="p-8 accent-line">
               <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden shadow-lg">
                 <img 
                   src="/Herr just junior.png" 

@@ -4,7 +4,7 @@ import { Phone, Mail, MapPin, Clock } from "lucide-react";
 
 export const Contact = () => {
   return (
-    <section id="contact" className="py-20 bg-slate-800 text-white">
+    <section id="contact" className="py-20 bg-slate-800 text-white texture-metal">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl heading-secondary mb-4">Kontakt & Beratung</h2>

@@ -1,10 +1,10 @@
 
 import { Card, CardContent } from "@/components/ui/card";
-import { Award, Clock, Handshake, Star } from "lucide-react";
+import { Award, Clock } from "lucide-react";
 
 export const About = () => {
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-white texture-subtle-grid">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
@@ -23,7 +23,7 @@ export const About = () => {
             </p>
             
             <div className="grid sm:grid-cols-2 gap-6">
-              <Card className="border-orange-300">
+              <Card className="border-orange-300 craft-card hover-lift">
                 <CardContent className="p-6 text-center">
                   <Award className="w-8 h-8 text-orange-700 mx-auto mb-3" />
                   <h3 className="font-semibold text-slate-800 mb-2">Doppelte Meister-Kompetenz</h3>
@@ -31,7 +31,7 @@ export const About = () => {
                 </CardContent>
               </Card>
               
-              <Card className="border-orange-300">
+              <Card className="border-orange-300 craft-card hover-lift">
                 <CardContent className="p-6 text-center">
                   <Clock className="w-8 h-8 text-orange-700 mx-auto mb-3" />
                   <h3 className="font-semibold text-slate-800 mb-2">25+ Jahre Erfahrung</h3>

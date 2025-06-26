@@ -14,7 +14,7 @@ export const Hero = () => {
   };
 
   return (
-    <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-700 text-white py-20">
+    <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-700 text-white py-20 hero-pattern">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
