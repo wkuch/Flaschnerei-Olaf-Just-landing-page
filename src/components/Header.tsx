@@ -15,7 +15,7 @@ export const Header = () => {
             />
             <div className="flex flex-col">
               <h1 className="text-2xl heading-secondary text-orange-600">Flaschnerei Olaf Just</h1>
-              <span className="text-xs px-2 py-1 quality-badge text-white rounded-full">Meisterbetrieb seit 1997</span>
+              <span className="text-xs px-2 py-1 quality-badge text-white rounded-full">Meisterbetrieb seit 1998</span>
             </div>
           </Link>
           <div className="hidden md:flex items-center space-x-6">

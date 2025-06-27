@@ -51,7 +51,7 @@ export const Hero = () => {
               </div>
               <div className="text-left min-w-0 flex-1 sm:flex-initial">
                 <div className="text-white font-semibold text-base sm:text-lg">Meisterbetrieb</div>
-                <div className="text-slate-400 text-xs sm:text-sm">Seit 1997</div>
+                <div className="text-slate-400 text-xs sm:text-sm">Seit 1998</div>
               </div>
             </div>
             <div className="flex items-center gap-3 w-full sm:w-auto max-w-full">

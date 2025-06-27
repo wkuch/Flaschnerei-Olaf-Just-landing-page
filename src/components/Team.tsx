@@ -29,7 +29,7 @@ export const Team = () => {
               <div className="flex justify-center gap-4 text-sm text-slate-500">
                 <div className="flex items-center gap-1">
                   <Award className="w-4 h-4" />
-                  <span>Meister seit 1997</span>
+                  <span>Meister seit 1998</span>
                 </div>
                 <div className="flex items-center gap-1">
                   <Calendar className="w-4 h-4" />

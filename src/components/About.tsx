@@ -18,7 +18,7 @@ export const About = () => {
           <div className="grid lg:grid-cols-3 gap-8 mb-12">
             <div className="lg:col-span-2">
               <p className="text-xl text-slate-600 mb-8 leading-relaxed">
-                Die Flaschnerei Olaf Just aus Talheim ist ein traditioneller Familienbetrieb, der seit 1997 
+                Die Flaschnerei Olaf Just aus Talheim ist ein traditioneller Familienbetrieb, der seit 1998 
                 im Großraum Heilbronn für Qualität und Zuverlässigkeit steht. Was als Ein-Mann-Betrieb begann, 
                 ist heute ein erfolgreiches Vater-Sohn-Unternehmen.
               </p>
@@ -57,7 +57,7 @@ export const About = () => {
                   <Clock className="w-8 h-8 text-orange-700" />
                 </div>
                 <h3 className="font-semibold text-slate-800 mb-2">25+ Jahre Erfahrung</h3>
-                <p className="text-slate-600 text-sm">Seit 1997 als Meisterbetrieb tätig</p>
+                <p className="text-slate-600 text-sm">Seit 1998 als Meisterbetrieb tätig</p>
               </CardContent>
             </Card>
             
