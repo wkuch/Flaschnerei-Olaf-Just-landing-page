@@ -60,7 +60,7 @@ export const Contact = () => {
   };
 
   const serviceOptions: ServiceType[] = [
-    "Sonstiges",
+    "Sonstiges/Mehrere Arbeiten",
     "Regenrinnen & Fallrohre",
     "Gauben & Dacharbeiten",
     "Mauerabdeckungen",
@@ -132,7 +132,7 @@ export const Contact = () => {
           
           <Card className="bg-slate-700 border-slate-600">
             <CardHeader>
-              <CardTitle className="text-white">Kostenvoranschlag anfordern</CardTitle>
+              <CardTitle className="text-white">Nehmen Sie Kontakt auf</CardTitle>
             </CardHeader>
             <CardContent>
               {submitResult ? (

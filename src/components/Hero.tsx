@@ -1,8 +1,28 @@
 
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Award, Users } from "lucide-react";
+import { useState, useEffect } from "react";
 
 export const Hero = () => {
+  const backgroundImages = [
+    '/hero-bg-4.png',
+    '/hero-bg-3.png',
+    '/hero-bg-8.png',
+    '/hero-bg-6.png',
+    '/hero-bg-2.png',
+    '/hero-bg-1.png',
+  ];
+
+  const [currentBgIndex, setCurrentBgIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentBgIndex((prevIndex) => (prevIndex + 1) % backgroundImages.length);
+    }, 4000); // Change background every 4 seconds
+
+    return () => clearInterval(interval);
+  }, [backgroundImages.length]);
+
   const scrollToServices = () => {
     const servicesElement = document.getElementById('services');
     servicesElement?.scrollIntoView({ behavior: 'smooth' });
@@ -14,13 +34,31 @@ export const Hero = () => {
   };
 
   return (
-    <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-700 text-white py-24 hero-pattern relative overflow-hidden">
+    <section className="text-white py-24 relative overflow-hidden">
+      {/* Background images with smooth transitions */}
+      {backgroundImages.map((image, index) => (
+        <div
+          key={image}
+          className={`absolute inset-0 bg-cover bg-center transition-opacity duration-1000 ease-in-out ${
+            index === currentBgIndex ? 'opacity-100' : 'opacity-0'
+          }`}
+          style={{ 
+            backgroundImage: `url(${image})`,
+            transition: 'opacity 1.5s ease-in-out'
+          }}
+        />
+      ))}
+      
+      {/* Dark overlay for better text readability */}
+      <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-slate-900/80 to-black/70" />
+      <div className="absolute inset-0 bg-black/30" />
+      
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-6xl mx-auto text-center px-2">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl heading-primary mb-8 leading-tight break-words">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl heading-primary mb-8 leading-tight break-words">
             Ihr zuverlässiger Partner für 
             <span className="text-orange-600 heading-accent block mt-2"> Flaschnerarbeiten am Haus</span>
-          </h2>
+          </h1>
           <p className="text-lg sm:text-xl md:text-2xl text-slate-300 mb-12 leading-relaxed max-w-4xl mx-auto px-2">
             Seit über 25 Jahren steht die Flaschnerei Olaf Just im Großraum Heilbronn für höchste Qualität 
             und Handwerkskunst. Als Vater-Sohn-Meisterbetrieb aus Talheim vereinen wir Tradition 

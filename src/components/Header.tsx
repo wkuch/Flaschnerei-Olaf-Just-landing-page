@@ -14,7 +14,7 @@ export const Header = () => {
               className="h-12 w-auto"
             />
             <div className="flex flex-col">
-              <h1 className="text-2xl heading-secondary text-orange-600">Flaschnerei Olaf Just</h1>
+              <span className="text-2xl heading-secondary text-orange-600 font-semibold">Flaschnerei Olaf Just</span>
               <span className="text-s text-white font-medium">Meisterbetrieb seit 1998</span>
             </div>
           </Link>

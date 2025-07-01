@@ -12,7 +12,7 @@ export interface ContactFormSubmissionData extends ContactFormData {
 }
 
 export type ServiceType = 
-  | "Sonstiges"
+  | "Sonstiges/Mehrere Arbeiten"
   | "Regenrinnen & Fallrohre"
   | "Gauben & Dacharbeiten"
   | "Mauerabdeckungen"
