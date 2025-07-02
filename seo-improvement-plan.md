@@ -170,7 +170,19 @@ Die Website ist seit einigen Tagen online, rankt aber schlecht bei Google, sogar
 
 ## Notizen & Beobachtungen
 
-_Hier können wir gemeinsam Fortschritte dokumentieren und Anpassungen vornehmen._
+### Bereits implementiert (01.07.2025):
+- ✅ **Sitemap.xml erstellt** - Vollständige Sitemap mit allen Seiten in `/public/sitemap.xml`
+- ✅ **Schema.org LocalBusiness Markup** - Umfassende strukturierte Daten in `index.html` implementiert
+- ✅ **Robots.txt optimiert** - Sitemap-Referenz hinzugefügt
+- ✅ **H1-Struktur korrigiert** - Haupt-Heading in Hero-Sektion ist jetzt H1
+- ✅ **Alt-Tags verifiziert** - Alle Bilder haben korrekte Alt-Texte
+
+### Nächste prioritäre Schritte:
+1. Sitemap in Google Search Console einreichen
+2. Structured Data mit Google Rich Results Test prüfen
+3. Google My Business Profil erstellen/optimieren
+
+_Hier können wir gemeinsam weitere Fortschritte dokumentieren und Anpassungen vornehmen._
 
 ---
 

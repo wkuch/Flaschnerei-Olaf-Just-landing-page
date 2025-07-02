@@ -1,42 +1,34 @@
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { 
-  Home, 
-  Wrench, 
-  Shield, 
-  Settings, 
-  Building, 
-  Hammer 
-} from "lucide-react";
 
 const services = [
   {
-    icon: Home,
+    image: "/Regenrinne.png",
     title: "Regenrinnen & Fallrohre",
     description: "Komplette Entwässerungssysteme für Ihr Dach im Großraum Heilbronn - fachgerecht geplant und montiert."
   },
   {
-    icon: Building,
-    title: "Gauben & Dacharbeiten",
+    image: "/gaube.png",
+    title: "Gauben & Dacharbeiten", 
     description: "Professionelle Gaubenverkleidung und sämtliche Blecharbeiten am Dach."
   },
   {
-    icon: Shield,
+    image: "/Mauerabdeckung.png",
     title: "Mauerabdeckungen",
     description: "Langlebiger Schutz für Ihre Mauern mit maßgefertigten Abdeckungen."
   },
   {
-    icon: Settings,
+    image: "/Fenstersimse.png",
     title: "Fenstersimse",
     description: "Wetterbeständige Fensterbänke aus hochwertigem Metall nach Maß."
   },
   {
-    icon: Wrench,
+    image: "/Reperatur.png",
     title: "Reparaturen & Wartung",
     description: "Schnelle Reparaturen und regelmäßige Wartung Ihrer Blechkonstruktionen."
   },
   {
-    icon: Hammer,
+    image: "/sonderanfertigung.png",
     title: "Sonderanfertigungen",
     description: "Individuelle Flaschnerarbeiten nach Ihren Wünschen und Anforderungen in Talheim und Umgebung."
   }
@@ -57,14 +49,16 @@ export const Services = () => {
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
-            <Card key={index} className="hover:shadow-lg transition-shadow duration-300 border-l-4 border-l-orange-600 craft-card hover-lift">
+            <Card key={index} className="hover:shadow-lg transition-shadow duration-300 border-l-4 border-l-orange-600 craft-card hover-lift overflow-hidden">
+              <div className="aspect-square relative overflow-hidden bg-gradient-to-br from-orange-50 to-orange-100 max-w-64 mx-auto mt-6 rounded-lg">
+                <img 
+                  src={service.image} 
+                  alt={service.title}
+                  className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                />
+              </div>
               <CardHeader>
-                <div className="flex items-center gap-3">
-                  <div className="p-2 bg-orange-200 rounded-lg">
-                    <service.icon className="w-6 h-6 text-orange-700" />
-                  </div>
-                  <CardTitle className="text-slate-800">{service.title}</CardTitle>
-                </div>
+                <CardTitle className="text-slate-800">{service.title}</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-slate-600 leading-relaxed">
