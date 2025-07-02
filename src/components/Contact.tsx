@@ -83,7 +83,7 @@ export const Contact = () => {
         
         <div className="grid lg:grid-cols-3 gap-8">
           <div className="lg:col-span-2">
-            <h3 className="text-2xl heading-secondary mb-8 text-orange-600">Nehmen Sie Kontakt auf</h3>
+            <h3 className="text-2xl heading-secondary mb-8 text-orange-600">Unsere Kontaktdaten</h3>
             
             <div className="grid sm:grid-cols-2 gap-6">
               <div className="flex items-start gap-4">
@@ -132,7 +132,7 @@ export const Contact = () => {
           
           <Card className="bg-slate-700 border-slate-600">
             <CardHeader>
-              <CardTitle className="text-white">Nehmen Sie Kontakt auf</CardTitle>
+              <CardTitle className="text-white">Anfrage senden</CardTitle>
             </CardHeader>
             <CardContent>
               {submitResult ? (
