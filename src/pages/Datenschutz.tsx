@@ -54,10 +54,10 @@ const Datenschutz = () => {
             <section>
               <h2 className="text-2xl heading-secondary text-slate-800 mb-4">2. Hosting</h2>
               <p className="mb-4">
-                Wir hosten die Inhalte unserer Website bei einem externen Dienstleister. 
-                Wenn Sie unsere Website besuchen, erfasst der Provider automatisch Informationen in 
-                sogenannten Server-Log-Dateien, die Ihr Browser automatisch an uns übermittelt. 
-                Dies sind:
+                Wir hosten die Inhalte unserer Website bei Vercel Inc., 340 S Lemon Ave #4133, 
+                Walnut, CA 91789, USA. Wenn Sie unsere Website besuchen, erfasst der Provider 
+                automatisch Informationen in sogenannten Server-Log-Dateien, die Ihr Browser 
+                automatisch an uns übermittelt. Dies sind:
               </p>
               <ul className="list-disc ml-6 mb-4 space-y-1">
                 <li>Browsertyp und Browserversion</li>
@@ -125,6 +125,31 @@ const Datenschutz = () => {
             <section>
               <h2 className="text-2xl heading-secondary text-slate-800 mb-4">4. Datenerfassung auf dieser Website</h2>
               
+              <h3 className="text-xl font-semibold text-slate-800 mb-3">Cookies</h3>
+              <p className="mb-4">
+                Diese Website verwendet ein technisch notwendiges Cookie zur Speicherung der 
+                Benutzereinstellungen für die Seitennavigation. Das Cookie "sidebar:state" wird 
+                für 7 Tage gespeichert und dient ausschließlich der korrekten Darstellung der 
+                Website-Navigation entsprechend Ihren Präferenzen. Diese Datenverarbeitung erfolgt 
+                auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der 
+                benutzerfreundlichen Gestaltung der Website).
+              </p>
+
+              <h3 className="text-xl font-semibold text-slate-800 mb-3">Google Fonts</h3>
+              <p className="mb-4">
+                Diese Website nutzt zur einheitlichen Darstellung von Schriftarten so genannte 
+                Google Fonts, die von Google bereitgestellt werden. Beim Aufruf einer Seite lädt 
+                Ihr Browser die benötigten Fonts in seinen Browsercache, um Texte und Schriftarten 
+                korrekt anzuzeigen. Zu diesem Zweck muss der von Ihnen verwendete Browser Verbindung 
+                zu den Servern von Google aufnehmen. Hierdurch erlangt Google Kenntnis darüber, dass 
+                über Ihre IP-Adresse diese Website aufgerufen wurde. Die Nutzung von Google Fonts 
+                erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Der Websitebetreiber hat ein 
+                berechtigtes Interesse an der einheitlichen Darstellung des Schriftbildes auf seiner 
+                Webseite. Weitere Informationen zu Google Fonts finden Sie unter 
+                https://developers.google.com/fonts/faq und in der Datenschutzerklärung von Google: 
+                https://policies.google.com/privacy?hl=de.
+              </p>
+
               <h3 className="text-xl font-semibold text-slate-800 mb-3">Server-Log-Dateien</h3>
               <p className="mb-4">
                 Der Provider der Seiten erhebt und speichert automatisch Informationen in so genannten 
@@ -138,12 +163,16 @@ const Datenschutz = () => {
                 Wenn Sie uns per E-Mail, Telefon oder Telefax kontaktieren, wird Ihre Anfrage inklusive 
                 aller daraus hervorgehenden personenbezogenen Daten (Name, Anfrage) zum Zwecke der 
                 Bearbeitung Ihres Anliegens bei uns gespeichert und verarbeitet. Diese Daten geben wir 
-                nicht ohne Ihre Einwilligung weiter. Die Verarbeitung erfolgt auf Grundlage von Art. 6 
-                Abs. 1 lit. b DSGVO, sofern Ihre Anfrage mit der Erfüllung eines Vertrags zusammenhängt 
-                oder zur Durchführung vorvertraglicher Maßnahmen erforderlich ist. In allen übrigen 
-                Fällen beruht die Verarbeitung auf unserem berechtigten Interesse an der effektiven 
-                Bearbeitung der an uns gerichteten Anfragen (Art. 6 Abs. 1 lit. f DSGVO) oder auf 
-                Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO).
+                nicht ohne Ihre Einwilligung weiter. Die Daten werden nach vollständiger Bearbeitung 
+                Ihrer Anfrage und nach Ablauf gesetzlicher Aufbewahrungsfristen, spätestens jedoch nach 
+                3 Jahren gelöscht, sofern Sie nicht ausdrücklich in eine längere Speicherung eingewilligt 
+                haben. Die Verarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO, sofern 
+                Ihre Anfrage mit der Erfüllung eines Vertrags zusammenhängt oder zur Durchführung 
+                vorvertraglicher Maßnahmen erforderlich ist. In allen übrigen Fällen beruht die 
+                Verarbeitung auf unserem berechtigten Interesse an der effektiven Bearbeitung der an 
+                uns gerichteten Anfragen (Art. 6 Abs. 1 lit. f DSGVO) oder auf Ihrer Einwilligung 
+                (Art. 6 Abs. 1 lit. a DSGVO). Sie können Ihre Einwilligung jederzeit für die Zukunft 
+                per E-Mail an info@flaschnerei-just.de widerrufen.
               </p>
             </section>
 
