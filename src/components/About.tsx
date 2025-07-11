@@ -5,14 +5,13 @@ import { Award, Clock, MapPin, Star, Hammer, Shield } from "lucide-react";
 export const About = () => {
   return (
     <section className="py-20 bg-white texture-subtle-grid relative">
-      <div className="absolute inset-0 bg-gradient-to-br from-orange-50/30 to-transparent"></div>
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-5xl heading-secondary text-slate-800 mb-6">
               Über 25 Jahre Erfahrung als Meisterbetrieb
             </h2>
-            <div className="w-24 h-1 bg-gradient-to-r from-orange-600 to-orange-400 mx-auto mb-8"></div>
+            <div className="w-24 h-1 bg-orange-600 mx-auto mb-8 rounded"></div>
           </div>
           
           <div className="grid lg:grid-cols-3 gap-8 mb-12">
@@ -29,7 +28,7 @@ export const About = () => {
               </p>
             </div>
             <div className="lg:col-span-1">
-              <Card className="border-orange-300 craft-card hover-lift bg-gradient-to-br from-orange-50 to-white">
+              <Card className="border-orange-300 craft-card hover-lift bg-orange-50/50">
                 <CardContent className="p-8 text-center">
                   <MapPin className="w-12 h-12 text-orange-700 mx-auto mb-4" />
                   <h3 className="font-bold text-slate-800 mb-3 text-lg">Standort Talheim</h3>
@@ -82,7 +81,7 @@ export const About = () => {
             </Card>
           </div>
           
-          <div className="bg-gradient-to-r from-slate-800 to-slate-700 rounded-2xl p-8 text-white">
+          <div className="bg-slate-800 rounded-2xl p-8 text-white shadow-xl">
             <div className="flex flex-col md:flex-row items-center gap-8">
               <div className="flex-1">
                 <h3 className="text-3xl heading-secondary mb-4">Traditionelles Handwerk, moderne Lösungen</h3>

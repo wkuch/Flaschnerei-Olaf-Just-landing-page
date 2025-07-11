@@ -50,7 +50,7 @@ export const Services = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <Card key={index} className="hover:shadow-lg transition-shadow duration-300 border-l-4 border-l-orange-600 craft-card hover-lift overflow-hidden">
-              <div className="aspect-square relative overflow-hidden bg-gradient-to-br from-orange-50 to-orange-100 max-w-64 mx-auto mt-6 rounded-lg">
+              <div className="aspect-square relative overflow-hidden bg-slate-100 max-w-64 mx-auto mt-6 rounded-lg shadow-sm">
                 <img 
                   src={service.image} 
                   alt={service.title}
