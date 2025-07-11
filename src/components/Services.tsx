@@ -30,7 +30,7 @@ const services = [
   {
     image: "/sonderanfertigung.png",
     title: "Sonderanfertigungen",
-    description: "Individuelle Flaschnerarbeiten nach Ihren Wünschen und Anforderungen in Talheim und Umgebung."
+    description: "Individuelle Flaschnerarbeiten nach Ihren Wünschen und Anforderungen in Heilbronn und Umgebung."
   }
 ];
 
