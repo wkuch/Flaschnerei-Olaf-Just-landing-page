@@ -12,7 +12,7 @@ export default function NotFoundPage() {
       <Header />
 
       {/* Hero / 404 Section */}
-      <main className="flex-1">
+      <main className="flex-1 flex flex-col">
         <section className="relative overflow-hidden bg-slate-900">
           {/* Background image layer (optional placeholder gradient) */}
           <div className="absolute inset-0">
@@ -64,9 +64,9 @@ export default function NotFoundPage() {
         </section>
 
         {/* Helpful links section on light background */}
-        <section className="bg-slate-50">
+        <section className="bg-slate-50 pb-0 flex-1 flex flex-col justify-center">
           <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto py-16">
+            <div className="max-w-4xl mx-auto pt-16 pb-16">
               <h3 className="heading-secondary text-2xl sm:text-3xl text-slate-800 mb-4">
                 Beliebte Bereiche
               </h3>
