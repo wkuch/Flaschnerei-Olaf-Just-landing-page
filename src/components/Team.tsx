@@ -7,10 +7,10 @@ export const Team = () => {
     <section className="py-20 bg-slate-50 section-pattern-2">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl heading-secondary text-slate-800 mb-4">Unser Team</h2>
+          <h2 className="text-4xl heading-secondary text-slate-800 mb-4">Familienbetrieb</h2>
           <div className="craft-divider h-4 mb-6"></div>
           <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-            Lernen Sie die Meister kennen, die hinter der Qualität unserer Arbeit stehen.
+            Handwerkskunst in der Familie: Lernen Sie unsere Meister kennen.
           </p>
         </div>
         
@@ -42,12 +42,12 @@ export const Team = () => {
           <Card className="text-center craft-card hover-lift">
             <CardContent className="p-8 accent-line">
               <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-slate-700 shadow-lg flex items-center justify-center ring-4 ring-slate-200">
-                <span className="text-4xl font-bold text-white">LS</span>
+                <span className="text-4xl font-bold text-white">LJ</span>
               </div>
-              <h3 className="text-2xl heading-secondary text-slate-800 mb-2">Lucas Schmidt</h3>
+              <h3 className="text-2xl heading-secondary text-slate-800 mb-2">Lucas Just</h3>
               <p className="text-orange-700 font-semibold mb-4">Flaschnerei-Meister</p>
               <p className="text-slate-600 mb-6 leading-relaxed">
-                Bringt frische Ideen und moderne Techniken in den Traditionsbetrieb ein. 
+                Als Sohn des Gründers bringt er frische Ideen und moderne Techniken ein. 
                 Meister der zweiten Generation mit Leidenschaft für das Handwerk.
               </p>
               <div className="flex justify-center gap-4 text-sm text-slate-500">
