@@ -34,7 +34,7 @@ export const Hero = () => {
   };
 
   return (
-    <section className="text-white py-24 relative overflow-hidden">
+    <section className="text-white pt-[5.5rem] md:pt-[6.5rem] pb-24 relative overflow-hidden">
       {/* Background images with smooth transitions */}
       {backgroundImages.map((image, index) => (
         <div
@@ -50,16 +50,17 @@ export const Hero = () => {
       ))}
       
       {/* Dark overlay for better text readability */}
-      <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-slate-900/80 to-black/70" />
-      <div className="absolute inset-0 bg-black/30" />
+      <div className="absolute inset-0 bg-gradient-to-b from-slate-900/85 via-slate-900/70 to-black/60" />
+      <div className="absolute inset-0 bg-gradient-to-t from-transparent to-slate-900/70" />
+      <div className="absolute inset-0 hero-pattern opacity-60" />
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-6xl mx-auto text-center px-2">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl heading-primary mb-8 leading-tight break-words">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl heading-primary mb-8 leading-tight break-words animate-fade-in">
             Ihr zuverlässiger Partner für 
             <span className="text-orange-600 heading-accent block mt-2"> Flaschnerarbeiten am Haus</span>
           </h1>
-          <p className="text-lg sm:text-xl md:text-2xl text-slate-300 mb-12 leading-relaxed max-w-4xl mx-auto px-2">
+          <p className="text-lg sm:text-xl md:text-2xl text-slate-300 mb-12 leading-relaxed max-w-4xl mx-auto px-2 animate-fade-in-slow">
             Seit über 25 Jahren steht die Flaschnerei Olaf Just im Großraum Heilbronn für höchste Qualität 
             und Handwerkskunst. Als Vater-Sohn-Meisterbetrieb aus Talheim vereinen wir Tradition 
             mit modernen Techniken.
@@ -84,7 +85,7 @@ export const Hero = () => {
           </div>
           <div className="flex flex-col sm:flex-row gap-6 sm:gap-8 md:gap-12 justify-center items-start sm:items-center px-2">
             <div className="flex items-center gap-3 w-full sm:w-auto max-w-full">
-              <div className="p-2 sm:p-3 bg-orange-600/20 rounded-full flex-shrink-0">
+              <div className="p-2 sm:p-3 bg-orange-600/20 rounded-full flex-shrink-0 animate-float">
                 <Award className="w-6 h-6 sm:w-8 sm:h-8 text-orange-600" />
               </div>
               <div className="text-left min-w-0 flex-1 sm:flex-initial">
@@ -93,7 +94,7 @@ export const Hero = () => {
               </div>
             </div>
             <div className="flex items-center gap-3 w-full sm:w-auto max-w-full">
-              <div className="p-2 sm:p-3 bg-orange-600/20 rounded-full flex-shrink-0">
+              <div className="p-2 sm:p-3 bg-orange-600/20 rounded-full flex-shrink-0 animate-float">
                 <Users className="w-6 h-6 sm:w-8 sm:h-8 text-orange-600" />
               </div>
               <div className="text-left min-w-0 flex-1 sm:flex-initial">

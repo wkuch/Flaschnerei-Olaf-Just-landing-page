@@ -1,29 +1,64 @@
 
 import { Phone, Mail } from "lucide-react";
 import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
 
 export const Header = () => {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => setIsScrolled(window.scrollY > 24);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
   return (
-    <header className="bg-slate-800 text-white py-4 sticky top-0 z-50">
+    <header
+      className={
+        "fixed top-0 left-0 right-0 w-full z-50 border-b transition-colors duration-300 " +
+        (isScrolled
+          ? "backdrop-blur-sm bg-slate-900/95 border-slate-800"
+          : "backdrop-blur-sm bg-slate-900/60 border-slate-800/60")
+      }
+    >
       <div className="container mx-auto px-4">
-        <div className="flex justify-between items-center">
-          <Link to="/" className="flex items-center space-x-3 hover:opacity-80 transition-opacity">
-            <img 
-              src="/logo.png" 
-              alt="Flaschnerei Olaf Just Logo" 
-              className="h-12 w-auto"
+        <div
+          className={
+            "flex justify-between items-center transition-all duration-300 " +
+            (isScrolled ? "py-2.5 md:py-3" : "py-4 md:py-5")
+          }
+        >
+          <Link to="/" className="flex items-center gap-3 group">
+            <img
+              src="/logo.png"
+              alt="Flaschnerei Olaf Just Logo"
+              className={(isScrolled ? "h-10" : "h-12 md:h-14") + " w-auto rounded-sm shadow-sm group-hover:shadow transition-all duration-300"}
             />
             <div className="flex flex-col">
-              <span className="text-2xl heading-secondary text-orange-600 font-semibold">Flaschnerei Olaf Just</span>
-              <span className="text-s text-white font-medium">Meisterbetrieb seit 1998</span>
+              <span
+                className={
+                  (isScrolled ? "text-lg sm:text-xl" : "text-xl sm:text-2xl") +
+                  " heading-secondary text-orange-600 font-semibold tracking-tight transition-all duration-300"
+                }
+              >
+                Flaschnerei Olaf Just
+              </span>
+              <span className="text-xs text-white/90">Meisterbetrieb seit 1998</span>
             </div>
           </Link>
-          <div className="hidden md:flex items-center space-x-6">
-            <a href="tel:+4917182751441" className="flex items-center space-x-2 hover:text-orange-600 transition-colors">
+          <div className="hidden md:flex items-center gap-6">
+            <a
+              href="tel:+4917182751441"
+              className="flex items-center gap-2 text-white/90 hover:text-orange-400 transition-colors"
+            >
               <Phone className="w-4 h-4 text-orange-600" />
               <span className="text-sm">+49 171 8275144</span>
             </a>
-            <a href="mailto:info@flaschnerei-just.de" className="flex items-center space-x-2 hover:text-orange-600 transition-colors">
+            <a
+              href="mailto:info@flaschnerei-just.de"
+              className="flex items-center gap-2 text-white/90 hover:text-orange-400 transition-colors"
+            >
               <Mail className="w-4 h-4 text-orange-600" />
               <span className="text-sm">info@flaschnerei-just.de</span>
             </a>

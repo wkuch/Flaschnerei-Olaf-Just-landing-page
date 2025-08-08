@@ -87,7 +87,7 @@ export const Contact = () => {
             
             <div className="grid sm:grid-cols-2 gap-6">
               <div className="flex items-start gap-4">
-                <div className="p-3 bg-orange-600 rounded-lg">
+                <div className="p-3 bg-orange-600 rounded-lg shadow-sm">
                   <Phone className="w-6 h-6" />
                 </div>
                 <div>
@@ -98,7 +98,7 @@ export const Contact = () => {
               </div>
               
               <div className="flex items-start gap-4">
-                <div className="p-3 bg-orange-600 rounded-lg">
+                <div className="p-3 bg-orange-600 rounded-lg shadow-sm">
                   <Mail className="w-6 h-6" />
                 </div>
                 <div>
@@ -108,7 +108,7 @@ export const Contact = () => {
               </div>
               
               <div className="flex items-start gap-4">
-                <div className="p-3 bg-orange-600 rounded-lg">
+                <div className="p-3 bg-orange-600 rounded-lg shadow-sm">
                   <MapPin className="w-6 h-6" />
                 </div>
                 <div>
@@ -118,7 +118,7 @@ export const Contact = () => {
               </div>
               
               <div className="flex items-start gap-4">
-                <div className="p-3 bg-orange-600 rounded-lg">
+                <div className="p-3 bg-orange-600 rounded-lg shadow-sm">
                   <Clock className="w-6 h-6" />
                 </div>
                 <div>
@@ -130,7 +130,7 @@ export const Contact = () => {
             </div>
           </div>
           
-          <Card className="bg-slate-700 border-slate-600">
+          <Card className="bg-slate-700 border-slate-600 premium-card">
             <CardHeader>
               <CardTitle className="text-white">Anfrage senden</CardTitle>
             </CardHeader>

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
-    <footer className="bg-slate-900 text-slate-300 py-12">
+    <footer className="bg-slate-900 text-slate-300 py-12 section-pattern-2">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
@@ -52,7 +52,7 @@ export const Footer = () => {
           </div>
         </div>
         
-        <Separator className="bg-slate-700 mb-6" />
+        <div className="enhanced-divider w-full" />
         
         <div className="flex flex-col md:flex-row justify-between items-center text-sm text-slate-500">
           <p>&copy; 2025 Flaschnerei Olaf Just. Alle Rechte vorbehalten.</p>

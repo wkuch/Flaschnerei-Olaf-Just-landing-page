@@ -8,14 +8,14 @@ export const Team = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl heading-secondary text-slate-800 mb-4">Familienbetrieb</h2>
-          <div className="craft-divider h-4 mb-6"></div>
+          <div className="enhanced-divider w-full max-w-md"></div>
           <p className="text-xl text-slate-600 max-w-2xl mx-auto">
             Handwerkskunst in der Familie: Lernen Sie unsere Meister kennen.
           </p>
         </div>
         
         <div className="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
-          <Card className="text-center craft-card hover-lift">
+          <Card className="text-center craft-card premium-card">
             <CardContent className="p-8 accent-line">
               <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-orange-600 shadow-lg flex items-center justify-center ring-4 ring-orange-100">
                 <span className="text-4xl font-bold text-white">OJ</span>
@@ -39,7 +39,7 @@ export const Team = () => {
             </CardContent>
           </Card>
           
-          <Card className="text-center craft-card hover-lift">
+          <Card className="text-center craft-card premium-card">
             <CardContent className="p-8 accent-line">
               <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-slate-700 shadow-lg flex items-center justify-center ring-4 ring-slate-200">
                 <span className="text-4xl font-bold text-white">LJ</span>
