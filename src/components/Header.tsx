@@ -13,6 +13,10 @@ export const Header = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  const scrollToContact = () => {
+    document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <header
       className={
@@ -62,6 +66,18 @@ export const Header = () => {
               <Mail className="w-4 h-4 text-orange-600" />
               <span className="text-sm">info@flaschnerei-just.de</span>
             </a>
+          </div>
+          <div className="md:hidden">
+            {isScrolled && (
+              <button
+                onClick={scrollToContact}
+                aria-label="Zum Kontaktbereich springen"
+                className="flex items-center gap-2 rounded-full bg-orange-600 text-white px-3 py-2 text-sm shadow hover:bg-orange-700 active:bg-orange-800 transition-colors"
+              >
+                <Mail className="w-4 h-4" />
+                <span>Kontakt</span>
+              </button>
+            )}
           </div>
         </div>
       </div>
