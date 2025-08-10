@@ -3,32 +3,32 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 const services = [
   {
-    image: "/Regenrinne.png",
+    image: "/Regenrinne.jpg",
     title: "Regenrinnen & Fallrohre",
     description: "Komplette Entwässerungssysteme für Ihr Dach im Großraum Heilbronn - fachgerecht geplant und montiert."
   },
   {
-    image: "/gaube.png",
+    image: "/gaube.jpg",
     title: "Gauben & Dacharbeiten", 
     description: "Professionelle Gaubenverkleidung und sämtliche Blecharbeiten am Dach."
   },
   {
-    image: "/Mauerabdeckung.png",
+    image: "/Mauerabdeckung.jpg",
     title: "Mauerabdeckungen",
     description: "Langlebiger Schutz für Ihre Mauern mit maßgefertigten Abdeckungen."
   },
   {
-    image: "/Fenstersimse.png",
+    image: "/Fenstersimse.jpg",
     title: "Fenstersimse",
     description: "Wetterbeständige Fensterbänke aus hochwertigem Metall nach Maß."
   },
   {
-    image: "/Reperatur.png",
+    image: "/Reperatur.jpg",
     title: "Reparaturen & Wartung",
     description: "Schnelle Reparaturen und regelmäßige Wartung Ihrer Blechkonstruktionen."
   },
   {
-    image: "/sonderanfertigung.png",
+    image: "/sonderanfertigung.jpg",
     title: "Sonderanfertigungen",
     description: "Individuelle Flaschnerarbeiten nach Ihren Wünschen und Anforderungen in Heilbronn und Umgebung."
   }
