@@ -54,9 +54,18 @@ export const Footer = () => {
         
         <div className="enhanced-divider w-full" />
         
-        <div className="flex flex-col md:flex-row justify-between items-center text-sm text-slate-500">
-          <p>&copy; 2025 Flaschnerei Olaf Just. Alle Rechte vorbehalten.</p>
-          <div className="flex gap-6 mt-4 md:mt-0">
+        <div className="grid grid-cols-1 md:grid-cols-3 items-center text-sm text-slate-500 gap-4">
+          <p className="text-center md:text-left">&copy; 2025 Flaschnerei Olaf Just. Alle Rechte vorbehalten.</p>
+          <a
+            href="https://www.digitalhandwerk-mensch.de/"
+            target="_blank"
+            rel="noopener"
+            className="mt-4 md:mt-0 text-sm text-slate-600 hover:text-orange-600 transition-colors text-center justify-self-center"
+            aria-label="Website erstellt von DigitalHandwerk Mensch"
+          >
+            Website erstellt von DigitalHandwerk Mensch
+          </a>
+          <div className="flex gap-6 mt-4 md:mt-0 justify-center md:justify-end md:justify-self-end">
             <Link to="/impressum" className="hover:text-orange-600 transition-colors">Impressum</Link>
             <Link to="/datenschutz" className="hover:text-orange-600 transition-colors">Datenschutz</Link>
           </div>
