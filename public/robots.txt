@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://flaschnerei-just.de/sitemap.xml
+Sitemap: https://www.flaschnerei-just.de/sitemap.xml
