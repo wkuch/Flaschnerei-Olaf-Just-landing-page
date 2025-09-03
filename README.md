@@ -1,4 +1,4 @@
-# Flaschnerei Olaf Just Website
+# Flaschnerei Olaf Just Website 
 
 A modern, responsive website for Flaschnerei Olaf Just, a traditional German metalworking business specializing in roofing and sheet metal services.
 
